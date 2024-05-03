@@ -19,7 +19,7 @@ Before running this script, ensure you have the following installed:
 You can install the required Python libraries using pip:
 
 ```bash
-pip install pillow pytesseract python-xlib
+pip install -r requirements.txt
 ```
 
 For Tesseract OCR, please follow the installation instructions for your
@@ -33,7 +33,7 @@ on-screen instructions to select the screen region for capturing the
 screenshot.
 
 ```bash
-python3 screenshot_ocr.py
+python3 src/main.py
 ```
 
 1. Click on the start point of the region you want to capture.
